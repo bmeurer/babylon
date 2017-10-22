@@ -1,2 +1,1 @@
-export default 
-@bar class Foo { }
+export @bar class Foo { }

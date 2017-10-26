@@ -1926,7 +1926,7 @@ export default (superClass: Class<Parser>): Class<Parser> =>
       ) {
         this.raise(
           firstIdentLoc,
-          "`The `type` and `typeof` keywords on named imports can only be used on regular `import` statements. It cannot be used with `import type` or `import typeof` statements`",
+          "The `type` and `typeof` keywords on named imports can only be used on regular `import` statements. It cannot be used with `import type` or `import typeof` statements",
         );
       }
 
